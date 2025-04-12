@@ -53,7 +53,8 @@ body {
 .info-text p {
   font-style: italic;
   font-weight: bold;
-  color: #86898f;
+  color: #59595a;
+  padding: 5px;
   margin: 0;
 }
 
