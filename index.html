@@ -6,69 +6,118 @@
     <meta name="keywords" content="Konstantin, cv, resume">
     <meta name="description" content="Это сайт-резюме Константина Александровича ">
     <title>Konstantin Resume</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Suranna&display=swap');
-        </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<img src="myAvotar.jpg" width="250">
-<h1>Бармута Константин</h1>
-   <p> Я работаю <strong>тренером</strong> в тренажерном зале и также увлекаюсь <strong> компьютером</strong> с самого детства. </p>
-<p><em>С 5го класса участвовал в <strong>международных олимпиадах по информатике</strong> и занимал <strong>1ые и 2ые места</strong></em></p>   
-<p><strong>Список социальных сетей:</strong></p>
-<a href="https://www.instagram.com/sparta.kostya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram </a>
-|
-<a href="https://t.me/Kostantinich" target="_blank">Telegram</a> 
-|
-<a href="https://www.youtube.com/@Katunim" target="_blank">YouTube</a> 
-<h2>Мои хобби:</h2>
-<ul>
-    <li>Компьютерные игры</li>
-    <li>Игра на гитаре</li>
-    <li>Пение</li>
-    <li>Тренажерный зал</li>
-    <li>Катаение на льду</li>
-</ul>
-<h2>Опыт работы</h2>
-<table>
-    <thead>
-        <tr>
-            <th>Название работы</th>
-            <th>Должность</th>
-            <th>Период работы</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Подработка</td>
-            <td>Разнорабочий</td>
-            <td>2016-2018</td>
-        </tr>
-        <tr>
-    <td>Тренажерный клуб</td>
-    <td>Тренер</td>
-    <td>2018 - по н.вр.</td>
-        </tr>
-    </tbody>
-</table>
-<h2>Связаться со мной</h2>
-<form>
-    <div>
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" placeholder="Введите имя">
-</div>
+<body>
 
-<div>
-<label for="email">Ваш email:</label>
-<input type="email" id="email" placeholder="Введите email">
-</div>
-<br>
-<div>
-    <label for="message">Ваше сообщение:</label><br>
-<textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
-</div>
-<div>
-    <button type="submit">Отправить</button>
-</div>
-</form>
+    <div class="container">
+
+        <div class="info">
+           <img src="myAvotar.jpg" alt="Бармута Константин" class="avatar">
+            
+           <div class="info-text">
+            <h1>Бармута Константин</h1>
+                <hr>
+                <p> Я работаю <strong>тренером</strong> в тренажерном зале и также увлекаюсь
+                    <strong> компьютером</strong> с самого детства. </p>
+                <p><em>С 5-го по 11-ый класс участвовал в
+                    <strong>международных олимпиадах по информатике</strong> 
+                    и занимал <strong>1-ые и 2-ые места.</strong></em></p> 
+                <p>Увлекаюлся игрой на <strong>гитаре</strong> 
+                    в следствии чего научился базовому уровню игре на гитаре. 
+                    После больше упор ушел на <strong>пение</strong>.</p> 
+            
+                <p>В моменте обучения вокалу пришлось научиться начальному уровню игры на <strong>пианино</strong>.</p>  
+                
+                <hr>
+
+                <h4><strong>Список социальных сетей:</strong></h4>
+                <a href="https://www.instagram.com/sparta.kostya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
+                id="color-inst" target="_blank">Instagram </a> |
+            
+                <a href="https://t.me/Kostantinich" 
+                id="color-tg" target="_blank">Telegram</a> |
+            
+                <a href="https://www.youtube.com/@Katunim" 
+                id="color-yt" target="_blank">YouTube</a> 
+            </div>
+        </div>
+
+
+        <div class="card card-b2">
+        <h2>Мои хобби:</h2>
+        <ul class="list">
+            <li>Компьютерные игры</li>
+            <li>Игра на гитаре</li>
+            <li>Пение</li>
+            <li>Тренажерный зал</li>
+            <li>Катаение на льду</li>
+        </ul>
+        </div>
+
+
+        <div class="card card-b3">
+            <h2>Опыт работы</h2>
+       
+            <table class="table">
+                
+                
+                <!-- <thead>
+                        
+                    <tr>
+                        <th>Название работы</th>
+                        <th>Должность</th>
+                        <th>Период работы</th>
+                    </tr>
+                
+                </thead> -->
+                
+            
+                    <tbody>
+                        <tr>
+                            <td>Подработка</td>
+                            <td>Разнорабочий / Фриланс</td>
+                            <td>2016 г - 2018 г</td>
+                        </tr>
+                        <tr>
+                            <td>Тренажерный клуб</td>
+                            <td>Тренер</td>
+                            <td>2018 г - по н.вр.</td>
+                        </tr>
+                </tbody>
+
+            </table>
+
+        </div>
+
+        <hr>
+
+        <form action="/" class="form">
+                <h2>Связаться со мной</h2>
+
+                <div class="form-row">
+        
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваш email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div> 
+
+                    <div class="form-group">
+                        <label for="message">Ваше сообщение:</label>
+                        <textarea id="message" cols="30" rows="5" placeholder="Введите сообщение..."></textarea>
+                    </div>
+
+                    
+                    <input class="btn" type="submit" value="Отправить!">
+                  </form>
+
+    </div>
+
 </body>
 </html>
